@@ -6,5 +6,5 @@ const server = http.createServer((req,res) => {
 });
 
 server.listen(port);
-console.log('запустился')
+console.log(`server with port ${port} is on`)
 
